@@ -173,7 +173,12 @@ Estrutura dos Dados dos Arquivos Texto
 
 *Formato UTF-8 sem BOM*
 
-> Para criar o banco de dados na pasta urnaCIPA abra um prompt de comando do MS-DOS ou um prompt do powershell e digite *criaBanco.bat cipa2020.db3*
+**Para criar o banco de dados na pasta urnaCIPA abra um prompt de comando do MS-DOS ou um prompt do powershell e digite** *criaBanco.bat cipa2020.db3*
+
+
+> **tela1.kxf tela2.kxf tela3.kxf**
+
+Esses arquivos são os arquivos utilizados pelo KODA para carregar cada tela para edição visual da interface gráfica.
 
 
 Estrutura do Banco de Dados
