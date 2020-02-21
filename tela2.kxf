@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<object type="TAForm" name="tela2">
+	<properties>
+		<property name="Left" vt="Int16">192</property>
+		<property name="Top" vt="Int8">124</property>
+		<property name="Width" vt="Int16">1040</property>
+		<property name="Height" vt="Int16">759</property>
+		<property name="Caption" vt="UTF8String">Urna Eletrфnica para Eleiзгo de CIPA - Versгo 1.0 - Desenvolvido por DANIEL CARVALHO GIANNI</property>
+		<property name="Color" vt="Ident">clBtnFace</property>
+		<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+		<property name="Font.Color" vt="Ident">clWindowText</property>
+		<property name="Font.Height" vt="Int8">-11</property>
+		<property name="Font.Name" vt="String">MS Sans Serif</property>
+		<property name="Font.Style" vt="Set"/>
+		<property name="OldCreateOrder" vt="False">False</property>
+		<property name="Position" vt="Ident">poDesktopCenter</property>
+		<property name="Visible" vt="True">True</property>
+		<property name="OnClose" vt="String">tela2Close</property>
+		<property name="Style" vt="Int32">340263040</property>
+		<property name="ExStyle" vt="Int16">256</property>
+		<property name="Version" vt="String">1.04</property>
+		<property name="FormOptOnEvent" vt="True">True</property>
+		<property name="FormOptExpVars" vt="False">False</property>
+		<property name="FormOptPopulate" vt="False">False</property>
+		<property name="FormOptVarsForSet" vt="False">False</property>
+		<property name="FormOptIndentChar" vt="Int8">0</property>
+		<property name="FormOptIndentCount" vt="Int8">1</property>
+		<property name="FormOptIndentInit" vt="Int8">0</property>
+		<property name="FormOptVarScope" vt="Int8">0</property>
+		<property name="Resizing" vt="Set"/>
+		<property name="PixelsPerInch" vt="Int8">96</property>
+		<property name="TextHeight" vt="Int8">13</property>
+	</properties>
+	<components>
+		<object type="TALabel" name="Label2">
+			<properties>
+				<property name="Left" vt="Int16">840</property>
+				<property name="Top" vt="Int8">11</property>
+				<property name="Width" vt="Int16">140</property>
+				<property name="Height" vt="Int8">28</property>
+				<property name="Caption" vt="UTF8String">Eleiзгo da CIPA</property>
+				<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-19</property>
+				<property name="Font.Name" vt="String">MS Sans Serif</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">0</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="lbanoCIPA">
+			<properties>
+				<property name="Left" vt="Int16">864</property>
+				<property name="Top" vt="Int8">40</property>
+				<property name="Width" vt="Int8">88</property>
+				<property name="Height" vt="Int8">48</property>
+				<property name="Caption" vt="String">0000</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-37</property>
+				<property name="Font.Name" vt="String">Arial</property>
+				<property name="Font.Style" vt="Set">fsBold</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">1</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Label3">
+			<properties>
+				<property name="Left" vt="Int8">10</property>
+				<property name="Top" vt="Int8">8</property>
+				<property name="Width" vt="Int16">780</property>
+				<property name="Height" vt="Int8">39</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">EMPRESA DE TESTE</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-24</property>
+				<property name="Font.Name" vt="String">Arial</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">2</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Label1">
+			<properties>
+				<property name="Left" vt="Int8">24</property>
+				<property name="Top" vt="Int16">139</property>
+				<property name="Width" vt="Int16">150</property>
+				<property name="Height" vt="Int8">28</property>
+				<property name="Caption" vt="String">Total de Eleitores</property>
+				<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-19</property>
+				<property name="Font.Name" vt="String">MS Sans Serif</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">3</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="eleitores">
+			<properties>
+				<property name="Left" vt="Int16">200</property>
+				<property name="Top" vt="Int16">128</property>
+				<property name="Width" vt="Int16">169</property>
+				<property name="Height" vt="Int8">48</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">0</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-37</property>
+				<property name="Font.Name" vt="String">Arial</property>
+				<property name="Font.Style" vt="Set">fsBold</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">4</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Label4">
+			<properties>
+				<property name="Left" vt="Int8">24</property>
+				<property name="Top" vt="Int16">211</property>
+				<property name="Width" vt="Int16">157</property>
+				<property name="Height" vt="Int8">28</property>
+				<property name="Caption" vt="UTF8String">Total que jб Votou</property>
+				<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-19</property>
+				<property name="Font.Name" vt="String">MS Sans Serif</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">5</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="jaVotou">
+			<properties>
+				<property name="Left" vt="Int16">200</property>
+				<property name="Top" vt="Int16">200</property>
+				<property name="Width" vt="Int16">177</property>
+				<property name="Height" vt="Int8">48</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">0</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-37</property>
+				<property name="Font.Name" vt="String">Arial</property>
+				<property name="Font.Style" vt="Set">fsBold</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">6</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Label6">
+			<properties>
+				<property name="Left" vt="Int8">24</property>
+				<property name="Top" vt="Int16">291</property>
+				<property name="Width" vt="Int16">171</property>
+				<property name="Height" vt="Int8">28</property>
+				<property name="Caption" vt="String">Total de Candidatos</property>
+				<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-19</property>
+				<property name="Font.Name" vt="String">MS Sans Serif</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">7</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="candidatos">
+			<properties>
+				<property name="Left" vt="Int16">200</property>
+				<property name="Top" vt="Int16">280</property>
+				<property name="Width" vt="Int16">185</property>
+				<property name="Height" vt="Int8">48</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">0</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-37</property>
+				<property name="Font.Name" vt="String">Arial</property>
+				<property name="Font.Style" vt="Set">fsBold</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">8</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Label5">
+			<properties>
+				<property name="Left" vt="Int8">24</property>
+				<property name="Top" vt="Int16">363</property>
+				<property name="Width" vt="Int8">125</property>
+				<property name="Height" vt="Int8">28</property>
+				<property name="Caption" vt="String">Total de Votos</property>
+				<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-19</property>
+				<property name="Font.Name" vt="String">MS Sans Serif</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">9</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="votos">
+			<properties>
+				<property name="Left" vt="Int16">200</property>
+				<property name="Top" vt="Int16">352</property>
+				<property name="Width" vt="Int16">193</property>
+				<property name="Height" vt="Int8">48</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">0</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-37</property>
+				<property name="Font.Name" vt="String">Arial</property>
+				<property name="Font.Style" vt="Set">fsBold</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">10</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Label7">
+			<properties>
+				<property name="Left" vt="Int16">488</property>
+				<property name="Top" vt="Int16">184</property>
+				<property name="Width" vt="Int16">319</property>
+				<property name="Height" vt="Int8">28</property>
+				<property name="Caption" vt="UTF8String">Digite o NЪMERO DO CPF do eleitor:</property>
+				<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-19</property>
+				<property name="Font.Name" vt="String">MS Sans Serif</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">11</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAInput" name="cpf">
+			<properties>
+				<property name="Left" vt="Int16">560</property>
+				<property name="Top" vt="Int16">228</property>
+				<property name="Width" vt="Int16">185</property>
+				<property name="Height" vt="Int8">37</property>
+				<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-24</property>
+				<property name="Font.Name" vt="String">MS Sans Serif</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="MaxLength" vt="Int8">11</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">12</property>
+				<property name="CtrlStyle" vt="Int32">1342382209</property>
+				<property name="CtrlExStyle" vt="Int16">512</property>
+				<property name="Resizing" vt="Set">DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="pesquisarEleitor">
+			<properties>
+				<property name="Left" vt="Int16">560</property>
+				<property name="Top" vt="Int16">288</property>
+				<property name="Width" vt="Int16">187</property>
+				<property name="Height" vt="Int8">49</property>
+				<property name="Caption" vt="String">Pesquisar Eleitor</property>
+				<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-19</property>
+				<property name="Font.Name" vt="String">MS Sans Serif</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">13</property>
+				<property name="OnClick" vt="String">pesquisarEleitorClick</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAGroup" name="Group1">
+			<properties>
+				<property name="Left" vt="Int8">32</property>
+				<property name="Top" vt="Int16">440</property>
+				<property name="Width" vt="Int16">777</property>
+				<property name="Height" vt="Int16">249</property>
+				<property name="CtrlStyle" vt="Int32">1342308359</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Caption" vt="UTF8String"> Confira se o Eleitor estб corretamente sendo exibido abaixo: </property>
+				<property name="TabOrder" vt="Int8">14</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components>
+				<object type="TALabel" name="Label8">
+					<properties>
+						<property name="Left" vt="Int8">32</property>
+						<property name="Top" vt="Int8">80</property>
+						<property name="Width" vt="Int8">96</property>
+						<property name="Height" vt="Int8">17</property>
+						<property name="Caption" vt="UTF8String">Matrнcula do Eleitor</property>
+						<property name="TabOrder" vt="Int8">0</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342308608</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="Label9">
+					<properties>
+						<property name="Left" vt="Int8">32</property>
+						<property name="Top" vt="Int8">48</property>
+						<property name="Width" vt="Int8">79</property>
+						<property name="Height" vt="Int8">17</property>
+						<property name="Caption" vt="String">Nome do Eleitor</property>
+						<property name="TabOrder" vt="Int8">1</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342308608</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="Label10">
+					<properties>
+						<property name="Left" vt="Int8">32</property>
+						<property name="Top" vt="Int8">120</property>
+						<property name="Width" vt="Int8">71</property>
+						<property name="Height" vt="Int8">17</property>
+						<property name="Caption" vt="String">CPF do Eleitor</property>
+						<property name="TabOrder" vt="Int8">2</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342308608</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="Label11">
+					<properties>
+						<property name="Left" vt="Int8">32</property>
+						<property name="Top" vt="Int16">160</property>
+						<property name="Width" vt="Int8">32</property>
+						<property name="Height" vt="Int8">17</property>
+						<property name="Caption" vt="String">Cargo</property>
+						<property name="TabOrder" vt="Int8">3</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342308608</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="Label12">
+					<properties>
+						<property name="Left" vt="Int8">32</property>
+						<property name="Top" vt="Int16">200</property>
+						<property name="Width" vt="Int8">71</property>
+						<property name="Height" vt="Int8">17</property>
+						<property name="Caption" vt="String">Departamento</property>
+						<property name="TabOrder" vt="Int8">4</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342308608</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="eleitorNome">
+					<properties>
+						<property name="Left" vt="Int16">136</property>
+						<property name="Top" vt="Int8">40</property>
+						<property name="Width" vt="Int16">618</property>
+						<property name="Height" vt="Int8">28</property>
+						<property name="AutoSize" vt="False">False</property>
+						<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+						<property name="Font.Color" vt="Ident">clWindowText</property>
+						<property name="Font.Height" vt="Int8">-19</property>
+						<property name="Font.Name" vt="String">MS Sans Serif</property>
+						<property name="Font.Style" vt="Set">fsBold</property>
+						<property name="ParentFont" vt="False">False</property>
+						<property name="TabOrder" vt="Int8">5</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342308608</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="eleitorMatricula">
+					<properties>
+						<property name="Left" vt="Int16">136</property>
+						<property name="Top" vt="Int8">72</property>
+						<property name="Width" vt="Int16">362</property>
+						<property name="Height" vt="Int8">28</property>
+						<property name="AutoSize" vt="False">False</property>
+						<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+						<property name="Font.Color" vt="Ident">clWindowText</property>
+						<property name="Font.Height" vt="Int8">-19</property>
+						<property name="Font.Name" vt="String">MS Sans Serif</property>
+						<property name="Font.Style" vt="Set">fsBold</property>
+						<property name="ParentFont" vt="False">False</property>
+						<property name="TabOrder" vt="Int8">6</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342308608</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="eleitorCPF">
+					<properties>
+						<property name="Left" vt="Int16">136</property>
+						<property name="Top" vt="Int8">112</property>
+						<property name="Width" vt="Int16">354</property>
+						<property name="Height" vt="Int8">28</property>
+						<property name="AutoSize" vt="False">False</property>
+						<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+						<property name="Font.Color" vt="Ident">clWindowText</property>
+						<property name="Font.Height" vt="Int8">-19</property>
+						<property name="Font.Name" vt="String">MS Sans Serif</property>
+						<property name="Font.Style" vt="Set">fsBold</property>
+						<property name="ParentFont" vt="False">False</property>
+						<property name="TabOrder" vt="Int8">7</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342308608</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="eleitorCargo">
+					<properties>
+						<property name="Left" vt="Int16">136</property>
+						<property name="Top" vt="Int16">152</property>
+						<property name="Width" vt="Int16">626</property>
+						<property name="Height" vt="Int8">28</property>
+						<property name="AutoSize" vt="False">False</property>
+						<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+						<property name="Font.Color" vt="Ident">clWindowText</property>
+						<property name="Font.Height" vt="Int8">-19</property>
+						<property name="Font.Name" vt="String">MS Sans Serif</property>
+						<property name="Font.Style" vt="Set">fsBold</property>
+						<property name="ParentFont" vt="False">False</property>
+						<property name="TabOrder" vt="Int8">8</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342308608</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="eleitorDepartamento">
+					<properties>
+						<property name="Left" vt="Int16">136</property>
+						<property name="Top" vt="Int16">192</property>
+						<property name="Width" vt="Int16">626</property>
+						<property name="Height" vt="Int8">28</property>
+						<property name="AutoSize" vt="False">False</property>
+						<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+						<property name="Font.Color" vt="Ident">clWindowText</property>
+						<property name="Font.Height" vt="Int8">-19</property>
+						<property name="Font.Name" vt="String">MS Sans Serif</property>
+						<property name="Font.Style" vt="Set">fsBold</property>
+						<property name="ParentFont" vt="False">False</property>
+						<property name="TabOrder" vt="Int8">9</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342308608</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+			</components>
+		</object>
+		<object type="TAButton" name="votar">
+			<properties>
+				<property name="Left" vt="Int16">832</property>
+				<property name="Top" vt="Int16">512</property>
+				<property name="Width" vt="Int16">171</property>
+				<property name="Height" vt="Int8">113</property>
+				<property name="Caption" vt="UTF8String">Autorizar Votaзгo</property>
+				<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-19</property>
+				<property name="Font.Name" vt="String">MS Sans Serif</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">15</property>
+				<property name="OnClick" vt="String">votarClick</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+	</components>
+</object>
