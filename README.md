@@ -237,7 +237,7 @@ matricula|TEXT|número de matrícula no departamento pessoal do eleitor que já 
 
 ## Fluxo de Votação
 
-![](https://danielgianni.github.io/urnaCIPA/flowchart.png)
+![](https://danielgianni.github.io/urnaCIPA/flowchart.png = 800x)
 
 #### Orientações Finais
 
