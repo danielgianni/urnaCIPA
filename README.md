@@ -77,6 +77,7 @@ Estrutura dos Dados dos Arquivos Texto
     ACACIA ALVES,666666,123.051.218/01,Auxiliar Técnico,Empresa de Teste Matriz
     ACALANDRA CORREIA,777777,939.211.748/12,Caixa,Empresa de Teste Matriz
     ADRIANA ALVES,888888,111.198.108/22,Gerente,Empresa de Teste Filial
+    
 *Formato UTF-8 sem BOM*
 
 #### Arquivo Texto de Candidatos
@@ -87,6 +88,7 @@ Estrutura dos Dados dos Arquivos Texto
     01,111111,José Pedro,Porteiro,Empresa de Teste Matriz
     02,222222,Gisele Souza,Auxiliar Administrativo,Empresa de Teste Filial
     03,333333,Patrícia Maria,Gerente,Empresa de Teste Matriz
+    
 *Formato UTF-8 sem BOM*
 
 #### Arquivo Texto de Configuração
@@ -99,6 +101,7 @@ Estrutura dos Dados dos Arquivos Texto
     Senha para Terminar Eleicao   = 2121
     Nome da Empresa               = Empresa de Teste
     Ano da CIPA                   = 2020
+    
 *Formato ANSI*
 
 #### Arquivos internos de apoio
@@ -108,6 +111,7 @@ Estrutura dos Dados dos Arquivos Texto
     drop table eleitores;
     .separator ","
     .import eleitores.csv eleitores
+    
 *Formato UTF-8 sem BOM*
 
 > **candidatos.sql**
@@ -115,6 +119,7 @@ Estrutura dos Dados dos Arquivos Texto
     drop table candidatos;
     .separator ","
     .import candidatos.csv candidatos
+    
 *Formato UTF-8 sem BOM*
 
 > **votacao.sql**
@@ -126,6 +131,7 @@ Estrutura dos Dados dos Arquivos Texto
                         NOT NULL,
         numero CHAR (2) NOT NULL
     );
+    
 *Formato UTF-8 sem BOM*
 
 > **votaram.sql**
@@ -138,7 +144,37 @@ Estrutura dos Dados dos Arquivos Texto
         matricula TEXT NOT NULL
                         UNIQUE
     );
+    
 *Formato UTF-8 sem BOM*
+
+
+> **criaBanco.bat**
+
+
+    @echo off
+
+    if "%1"=="" goto ops
+
+    sqlite3.exe %1 < candidatos.sql
+    sqlite3.exe %1 < eleitores.sql
+    sqlite3.exe %1 < votacao.sql
+    sqlite3.exe %1 < votaram.sql
+
+    goto fim
+
+    :ops
+
+    echo digite criaBanco.bat nomeBanco.db3
+
+    :fim
+
+    echo arquivos importados...
+
+
+*Formato UTF-8 sem BOM*
+
+> Para criar o banco de dados na pasta urnaCIPA abra um prompt de comando do MS-DOS ou um prompt do powershell e digite *criaBanco.bat cipa2020.db3*
+
 
 Estrutura do Banco de Dados
 -------------
