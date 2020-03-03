@@ -12,7 +12,7 @@
 - Permite importar base de dados de ELEITORES e CANDIDATOS através de arquivos CSV (separados por vírgulas).
 - Relatório de totalização de votos automaticamente para impressão após encerramento da eleição.
 - Arquivo texto de configuração simplificado: Ano da Eleição, Nome da Empresa, Senha de Início de votação e Senha de Término da Votação.
-- Bando de Dados SQLite sem necessidade de instalação de gerenciadores de banco de dados ou configurações complexas.
+- Banco de Dados SQLite sem necessidade de instalação de gerenciadores de banco de dados ou configurações complexas.
 
 ### Requisitos
 
